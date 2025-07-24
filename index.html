@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neon Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="converter-box">
+    <div class="currency-icon">
+        <img src="dollar.jpg">
+    </div>
+    <h1>Currency Converter</h1>
+    <form id="converter-form">
+      <label>Enter Amount</label>
+      <input type="number" id="amount" value="100" />
+
+      <label>From</label>
+      <div class="dropdown from">
+        <img src="https://flagsapi.com/US/shiny/64.png" />
+        <select name="from"></select>
+      </div>
+
+      <label>To</label>
+      <div class="dropdown to">
+        <img src="https://flagsapi.com/IN/shiny/64.png" />
+        <select name="to"></select>
+      </div>
+
+      <div class="msg">1 USD = 88 INR</div>
+
+      <button type="submit">Convert</button>
+    </form>
+  </div>
+
+  <script src="codes.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
