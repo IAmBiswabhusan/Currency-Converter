@@ -44,7 +44,7 @@ This app fetches live exchange rates from the **[Exchange Rate API](https://open
 ├── dollar.jpg       # Image used in the project
 └── README.md        # Project documentation
 
-
+```
 ---
 
 ## ⚙️ How It Works
