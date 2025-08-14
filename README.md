@@ -21,7 +21,8 @@ This app fetches live exchange rates from the **[Exchange Rate API](https://open
 ---
 
 ## 📷 Demo Screenshot
-*(Add your screenshot here after running the app)*
+
+<img width="1920" height="1080" alt="Screenshot (352)" src="https://github.com/user-attachments/assets/177cdaa8-e8e1-4b22-90c7-b753b9b64bf9" />
 
 ---
 
