@@ -70,6 +70,36 @@ This app fetches live exchange rates from the **[Exchange Rate API](https://open
    ```bash
    git clone https://github.com/your-username/currency-converter.git
    cd currency-converter
-2.Open in Browser
+2. **Open in Browser**
 
 Simply open index.html in any browser.
+
+3. **Live Preview**
+
+You can also use the hosted version here: https://currency-converter-biswa.netlify.app
+
+📌 Example Usage
+```plaintext
+
+Select From Currency: USD
+
+Select To Currency: EUR
+
+Enter an amount (e.g., 100)
+
+Click Convert → Get live conversion.
+```
+
+🔮 Future Improvements
+
+Add historical exchange rate graphs.
+
+Allow offline mode with cached rates.
+
+Support cryptocurrency conversions.
+
+---
+
+📝 License
+
+This project is open source and available under the MIT License.
