@@ -44,3 +44,32 @@ This app fetches live exchange rates from the **[Exchange Rate API](https://open
 ├── dollar.jpg       # Image used in the project
 └── README.md        # Project documentation
 
+
+---
+
+## ⚙️ How It Works
+1. **Populate Currency Dropdowns**  
+   - The dropdowns are dynamically filled with currency codes from `countryList.js`.
+   - Default values:  
+     - **From Currency** → `USD`  
+     - **To Currency** → `INR`
+2. **Update Flags**  
+   - When a currency changes, the corresponding country flag updates using `flagsapi.com`.
+3. **Fetch Exchange Rate**  
+   - On form submit or page load, the app fetches the latest rates from the Exchange Rate API.
+4. **Display Result**  
+   - Shows the converted value in the format:  
+     ```
+     1 USD = 83.20 INR
+     ```
+
+---
+
+## 📦 Installation & Usage
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/currency-converter.git
+   cd currency-converter
+2.Open in Browser
+
+Simply open index.html in any browser.
