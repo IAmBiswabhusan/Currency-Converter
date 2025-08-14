@@ -35,3 +35,9 @@ This app fetches live exchange rates from the **[Exchange Rate API](https://open
 ---
 
 ## 📂 Project Structure
+.
+├── index.html # Main HTML file
+├── style.css # Styling
+├── script.js # Main JavaScript logic
+├── codes.js # Country and currency mapping
+└── README.md # Project documentation
